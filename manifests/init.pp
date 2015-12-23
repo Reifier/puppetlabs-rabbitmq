@@ -134,7 +134,7 @@ class rabbitmq(
   validate_hash($ldap_config_variables)
   validate_bool($ldap_use_ssl)
   validate_re($ldap_port, '\d+')
-  validate_bool($ldap_log)
+  validate_string($ldap_log)
   validate_hash($environment_variables)
   validate_hash($config_variables)
   validate_hash($config_kernel_variables)

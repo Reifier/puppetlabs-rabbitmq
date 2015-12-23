@@ -110,7 +110,7 @@ class rabbitmq::params {
   $ldap_other_bind            = 'anon'
   $ldap_use_ssl               = false
   $ldap_port                  = '389'
-  $ldap_log                   = false
+  $ldap_log                   = 'false'
   $ldap_config_variables      = {}
   $stomp_port                 = '6163'
   $stomp_ssl_only             = false
